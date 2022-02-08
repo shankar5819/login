@@ -1,0 +1,59 @@
+<html>
+
+<head>
+</head>
+
+<body>
+  <div class="box-form">
+    <div class="left">
+      <div class="overlay">
+        <h1>Angler Technology</h1>
+        <span>
+          <p>login with social media</p>
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Login with Twitter</a>
+        </span>
+      </div>
+    </div>
+    <div class="right">
+      <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <h2 class="sign text-center">Sign in</h2>
+        <div>
+          <div class="form-group">
+            <p class="label-view" style="color: black;font-size: larger;">Email</p>
+            <input type="email" style="margin-top: -20px;" formControlName="email" class="form-control"
+            [ngClass]="{ 'is-invalid': submitted && f.email.errors }">
+            <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+          </div>
+          </div>
+          <br>
+
+          <div class="form-group">
+            <p class="label-view" style="color: black;font-size: larger;">Password</p>
+            <input type="password" style="margin-top: -20px;" formControlName="password" class="form-control"
+            [ngClass]="{ 'is-invalid': submitted && f.password.errors }">
+            <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+              
+          </div>
+          </div>
+          <br>
+          <input class="form-check-input" type="checkbox" value=""><span class="checkboxs">
+            Remember me?</span>
+        </div>
+        <br>
+        <button  style="cursor: pointer;">Register</button>
+        <br>
+        <a href=""> <span class="forget text-center">Forget your Password?</span></a><br>
+        <div style="margin-top: 10px;">
+          <span class="Signup">Don't have an account <a href="" class="reference">Sign Up</a></span>
+        </div>
+        <br>
+        <div style="margin-top: -10px;">
+          <span class="resend">Resend email confirmation</span>
+        </div>
+      </form>
+    </div>
+
+  </div>
+</body>
+
+</html>

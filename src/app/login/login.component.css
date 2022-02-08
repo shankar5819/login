@@ -1,0 +1,168 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+    margin-top: 20px;
+  }
+  
+  .box-form {
+    margin: 0 auto;
+    width: 80%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex: 1 1 100%;
+    align-items: stretch;
+    justify-content: space-between;
+    box-shadow: 0 0 20px 6px #090b6f85;
+  }
+  @media (max-width: 980px) {
+    .box-form {
+      flex-flow: wrap;
+      text-align: center;
+      align-content: center;
+      align-items: center;
+    }
+  }
+  .box-form div {
+    height: auto;
+  }
+  .box-form .left {
+    color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("/assets/image/bgimage.jpg");
+    overflow: hidden;
+  }
+  .box-form .left .overlay {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background: #5961f9ad;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .box-form .left .overlay h1 {
+    font-size: 9vmax;
+    line-height: 1;
+    font-weight: 100;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .box-form .left .overlay span p {
+    margin-top: 30px;
+  }
+  .box-form .left .overlay span a {
+    background: #3b5998;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding: 14px 50px;
+    border-radius: 100px;
+    display: inline-block;
+    box-shadow: 0 3px 6px 1px #042d4657;
+  }
+  .box-form .left .overlay span a:last-child {
+    background: #1dcaff;
+    margin-left: 30px;
+  }
+  .box-form .right {
+    padding: 40px;
+    overflow: hidden;
+    margin-top: 20px;
+    width: 50%;
+  }
+  @media (max-width: 980px) {
+    .box-form .right {
+      width: 100%;
+    }
+  }
+  .box-form .right h5 {
+    font-size: 6vmax;
+    line-height: 0;
+  }
+  .box-form .right p {
+    font-size: 14px;
+    color: #B0B3B9;
+  }
+  .box-form .right .remember-me--forget-password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .box-form .right .remember-me--forget-password input {
+    margin: 0;
+    margin-right: 7px;
+    width: auto;
+  }
+  .box-form .right button {
+    margin-left: 20px;
+    width: 90%;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 35px;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 4px 20px 0px #5C985C;
+    background-image: linear-gradient(135deg, #5C985C 10%, #5C985C 100%);
+  }
+  
+  label {
+    display: block;
+    position: relative;
+    margin-left: 30px;
+  }
+  
+ 
+  .login{
+      text-decoration: none;
+      color: #db4139;
+      font-weight: bolder;
+      font-size: 900;
+  }
+  .sign{
+      font-size: 28px;
+      font-weight: 600;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .label-view{
+      margin-left: 1px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .checkboxs{
+      color:#484848;
+  }
+
+  .forget{
+    color: black;
+    margin-left: 110px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+  }
+
+  .reference{
+    color: black;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+
+  .Signup{
+    color: #505050;
+    margin-left: 80px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .resend{
+    color: black;
+    font-weight: bolder;
+    text-decoration: underline; 
+    margin-left: 90px;
+  }
+ 
